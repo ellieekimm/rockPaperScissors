@@ -1,0 +1,64 @@
+html{
+    font-family: 'Alata', sans-serif;
+    color: rgb(8, 19, 76);
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 50px;
+    text-align: center;
+}
+.playerone{
+    grid-column-start: 2;
+    grid-row-start: 1
+}
+.playertwo{
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+h2{
+    font-size: 2rem;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+#p1img{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    max-height: 525px;
+}
+#p2img{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    max-height: 525px;
+}
+img{
+    width: 200px;
+}
+.options{
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+h2{
+    text-align: center;
+    color:rgb(124, 6, 104)
+}
+.hidden{
+    display: none;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.options > img{
+    height: auto;
+    max-width: 25%;
+}
+#finaltext{
+    margin-bottom: 2px;
+}
