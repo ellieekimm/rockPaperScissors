@@ -59,6 +59,10 @@ h2{
     height: auto;
     max-width: 25%;
 }
+.options > img:hover{
+    opacity: 30%;
+}
 #finaltext{
     margin-bottom: 2px;
 }
+

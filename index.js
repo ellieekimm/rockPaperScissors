@@ -12,7 +12,6 @@ function playerOne(){
             var playerTwoValue = playerTwo();
             var p1value = hashMap[this.getAttribute("alt")];
             winnerCalculator(p1value,playerTwoValue);
-    
         });
     }
 }
@@ -20,11 +19,9 @@ function playerTwo(){
     var playerTwo = Math.floor(Math.random() *3)+1;
     console.log(playerTwo);
     if (playerTwo === 1){        
-        console.log("This works");
         document.querySelector("#p2img").setAttribute("src", "images/rock.png");
     }
     else if (playerTwo === 2){
-        console.log("This works");
         document.querySelector("#p2img").setAttribute("src", "images/paper.webp");
     }
     else if (playerTwo === 3){
