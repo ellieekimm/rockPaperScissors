@@ -36,7 +36,7 @@ function winnerCalculator(num1, num2){
     if (num1 === 1){
         if (num2 === 2){
             document.querySelector("#finaltext").innerHTML = "YOU LOST!";
-            var audio = new Audio("sounds/fart.mp3");
+            var audio = new Audio("sounds/boo.mp3");
             audio.play();
         }
         else if (num2 === 3){
@@ -53,14 +53,14 @@ function winnerCalculator(num1, num2){
         }
         else if (num2 === 3){
             document.querySelector("#finaltext").innerHTML = "YOU LOST!";
-            var audio = new Audio("sounds/fart.mp3");
+            var audio = new Audio("sounds/boo.mp3");
             audio.play();
         }
     }
     else if (num1 === 3){
         if (num2 === 1){
             document.querySelector("#finaltext").innerHTML = "YOU LOST!";
-            var audio = new Audio("sounds/fart.mp3");
+            var audio = new Audio("sounds/boo.mp3");
             audio.play();
         }
         else if (num2 === 2){
